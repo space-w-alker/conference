@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Aguafina+Script|Josefin+Sans|Montserrat|Mukta|Rubik);
+
+.HomePage{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.InfoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

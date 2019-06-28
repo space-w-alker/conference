@@ -1,0 +1,71 @@
+.NavBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    /* background-color: rgba(165, 42, 42, 0.582); */
+    top: 0px;
+    z-index: 10;
+    transition: 0.5s;
+  }
+  
+  .NavBarItem{
+    padding: 30px;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+  }
+
+  .NavBarItemSmall{
+    flex: 1 100%;
+    background-color: brown;
+    order: 5;
+  }
+
+  .NavBarItemHidden{
+    display: none;
+  }
+
+  .OptionsContainer{
+    height: 100%;
+    width: 20px;
+    padding: 5px 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+    /* box-sizing: border-box; */
+  }
+
+  .OptionsIcon{
+    margin: 2px;
+    width: 20px;
+    height: 20px; 
+  }
+
+  .OpMouseOver{
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .OpHidden{
+    display: none;
+  }
+
+  .TextDisplay{
+    font-size: 2.1vw;
+  }
+
+  .LinkStyle{
+    text-decoration: none;
+    color: white;
+  }
+
+  .NavBarItem:hover{
+    background-color: rgb(255, 255, 117);
+  }

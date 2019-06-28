@@ -1,0 +1,79 @@
+
+
+.SubContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+.SubBody{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.InfoCard{
+    margin: 50px;
+    box-shadow: 2px 2px 10px rgb(187, 187, 187);
+    border-radius: 5px;
+    padding: 65px 40px;
+}
+
+.InfoCardSmall{
+    margin: 8px;
+    padding: 10px 40px;
+}
+
+.InputStyle{
+    padding:0px; font-size:1.2em; width:10%; box-sizing:border-box; border-style:none; border-width:0;
+    display: inline-block;flex-grow: 1;align-items: flex-end;outline: none;background-color: transparent;
+}
+
+.TextAreaStyle{
+    padding: 10px; height: 100px;
+}
+
+.InputContainer{
+    border-width:1px;display: flex;border-color: black;
+    border-style: solid;align-items: center;border-radius: 0px;box-shadow: 0px 0px 0px maroon;
+    transition: 0.2s;
+}
+
+.MainContainer{
+    display:block; text-align:start; border-style:none;margin:15px 5px;
+}
+
+.Focused{
+    box-shadow: 0px 0px 3px blue;border-color: rgb(149, 225, 255);
+}
+
+.Icon{
+    width: 100%;
+    height: 100%;
+}
+
+.IconFocused{
+    color: rgb(30, 191, 255);
+    
+}
+
+.IconError{
+    color: rgb(255, 77, 77);
+}
+
+.ErrorDisplay{
+    color: red;
+    background-color: rgb(255, 194, 194);
+    padding: 5px;
+    box-sizing: border-box;
+    transition: height 1s;
+}
+
+.ErrorHidden{
+    display:none;
+}
+
+

@@ -1,0 +1,11 @@
+.SubInsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.SubInsBody{
+  height: 1000px;
+  display: inline-block;
+}
